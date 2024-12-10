@@ -13,7 +13,128 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    <header></header>
+    <header class="">
+      <div class="w-[90vw] lg:w-[70vw] mx-auto navbar-container">
+        <div class="navbar bg-base-100 items-center">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 6h16M4 12h8m-8 6h16"
+                    />
+                  </svg>
+                </div>
+                <ul
+                  tabindex="0"
+                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+                >
+                  <li class="text-[#FF4240]"><a>Home</a></li>
+                  <li>
+                    <a>About</a>
+                  </li>
+                  <li><a>Pages</a></li>
+                  <li><a>Blog</a></li>
+                  <li><a>Contact</a></li>
+                  <li><a><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-5"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
+                    />
+                  </svg></a></li>
+                </ul>
+              </div>
+              <a class="text-3xl font-bold">Hockey<span class="text-[#FF4240]">'</span>s</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li class="text-[#FF4240]"><a>Home</a></li>
+                <li>
+                  <a>About</a>
+                </li>
+                <li><a>Pages</a></li>
+                <li><a>Blog</a></li>
+                <li><a>Contact</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end space-x-5">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-5 hidden lg:flex"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
+                />
+              </svg>
+              <a class="btn bg-[#FF4240] text-white px-4 py-2">Get Ticket</a>
+            </div>
+          </div>
+          <div class="carousel w-full lg:h-[60vh]">
+            <div id="slide1" class="carousel-item relative w-full">
+              <img
+                src="./Images/1.png"
+                class="w-full" />
+              <div class="absolute left-1/2 lg:left-0 lg:top-1/2 bottom-2 lg:bottom-0 flex lg:translate-y-36 -translate-x-12 lg:translate-x-5 space-x-2 transform justify-between">
+                <a href="#slide4" class="btn btn-circle bg-black text-white border-transparent">❮</a>
+                <a href="#slide2" class="btn btn-circle bg-black text-white border-transparent">❯</a>
+              </div>
+            </div>
+            <div id="slide2" class="carousel-item relative w-full">
+              <img
+                src="https://img.daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.webp"
+                class="w-full" />
+              <div class="absolute left-1/2 lg:left-0 lg:top-1/2 bottom-2 lg:bottom-0 flex lg:translate-y-36 -translate-x-12 lg:translate-x-5 space-x-2 transform justify-between">
+                <a href="#slide1" class="btn btn-circle bg-black text-white border-transparent">❮</a>
+                <a href="#slide3" class="btn btn-circle bg-black text-white border-transparent">❯</a>
+              </div>
+            </div>
+            <div id="slide3" class="carousel-item relative w-full">
+              <img
+                src="https://img.daisyui.com/images/stock/photo-1414694762283-acccc27bca85.webp"
+                class="w-full" />
+              <div class="absolute left-1/2 lg:left-0 lg:top-1/2 bottom-2 lg:bottom-0 flex lg:translate-y-36 -translate-x-12 lg:translate-x-5 space-x-2 transform justify-between">
+                <a href="#slide2" class="btn btn-circle bg-black text-white border-transparent">❮</a>
+                <a href="#slide4" class="btn btn-circle bg-black text-white border-transparent">❯</a>
+              </div>
+            </div>
+            <div id="slide4" class="carousel-item relative w-full">
+              <img
+                src="https://img.daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.webp"
+                class="w-full" />
+              <div class="absolute left-1/2 lg:left-0 lg:top-1/2 bottom-2 lg:bottom-0 flex lg:translate-y-36 -translate-x-12 lg:translate-x-5 space-x-2 transform justify-between">
+                <a href="#slide3" class="btn btn-circle bg-black text-white border-transparent">❮</a>
+                <a href="#slide1" class="btn btn-circle bg-black text-white border-transparent">❯</a>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="lg:absolute">
+
+          </div> -->
+      </div>
+    </header>
     <main></main>
     <footer></footer>
   </body>
