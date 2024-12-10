@@ -11,8 +11,11 @@
       type="text/css"
     />
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
   </head>
-  <body>
+  <body class="m-0 font-manrope">
     <header class="">
       <div class="w-[90vw] lg:w-[70vw] mx-auto navbar-container space-y-4">
         <div class="navbar bg-base-100 items-center">
@@ -92,7 +95,7 @@
               <a class="btn bg-[#FF4240] text-white px-4 py-2">Get Ticket</a>
             </div>
           </div>
-          <div class="carousel w-full lg:h-[60vh]">
+          <div class="carousel w-full">
             <div id="slide1" class="carousel-item relative w-full">
               <img
                 src="./Images/1.png"
@@ -130,15 +133,76 @@
               </div>
             </div>
           </div>
-          <div class="lg:absolute lg:right-64 lg:bottom-60 card bg-[#131318] lg:bg-opacity-80 text-white w-auto shadow-xl">
+          <div class="lg:absolute lg:right-64 lg:bottom-40 card bg-[#131318] lg:bg-opacity-80 text-white w-auto shadow-xl">
             <div class="card-body">
               <h2 class="card-title">Meet all the heroes from the field</h2>
-              <p class="text-base opacity-70 font-normal">Dit amet consectetur. Condimentum dignissim adipiscing aliquam <br> turpis placerat dolor. Purus urna in sit nullam proin. </p>
+              <p class="text-sm lg:text-base opacity-70 font-normal">Dit amet consectetur. Condimentum dignissim adipiscing aliquam <br> turpis placerat dolor. Purus urna in sit nullam proin. </p>
             </div>
           </div>
       </div>
     </header>
-    <main></main>
+    <main class="w-[90vw] lg:w-[70vw] mx-auto my-24">
+        <section class="club space-y-5 my-14">
+            <div class="club-details text-center space-y-4 border-t-2 border-b-2 border-dashed py-5">
+                <h3 class="text-2xl lg:text-3xl font-extrabold">Professional Hockeys Club</h3>
+                <p class="text-sm lg:text-base opacity-70 font-normal">Dit amet consectetur. Condimentum dignissim adipiscing aliquam <br> turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            </div>
+            <div class="facilities grid grid-cols-1 lg:grid-cols-4 gap-10 lg:gap-3">
+                <div class="facility1 text-center space-y-3">
+                    <div class="radial-progress text-[#FF4240] -rotate-[230deg] text-3xl p-8" style="--value:87;--thickness:15px;" role="progressbar"><span class="rotate-[230deg] text-black">87%</span></div>
+                    <h4 class="text-xl font-semibold">Prayer Facility</h4>
+                    <p class="text-sm lg:text-base opacity-70 font-normal">Amet consectetur. Condimentum dignissim adipiscing. </p>
+                </div>
+                <div class="facility2 text-center space-y-3">
+                    <div class="radial-progress text-green-400 -rotate-[230deg] text-3xl p-8" style="--value:95;--thickness:15px;" role="progressbar"><span class="rotate-[230deg] text-black">95%</span></div>
+                    <h4 class="text-xl font-semibold">Experienced Coach</h4>
+                    <p class="text-sm lg:text-base opacity-70 font-normal">Amet consectetur. Condimentum dignissim adipiscing. </p>
+                </div>
+                <div class="facility2 text-center space-y-3">
+                    <div class="radial-progress text-amber-400 -rotate-[230deg] text-3xl p-8" style="--value:90;--thickness:15px;" role="progressbar"><span class="rotate-[230deg] text-black">90%</span></div>
+                    <h4 class="text-xl font-semibold">Senior Player</h4>
+                    <p class="text-sm lg:text-base opacity-70 font-normal">Amet consectetur. Condimentum dignissim adipiscing. </p>
+                </div>
+                <div class="facility2 text-center space-y-3">
+                    <div class="radial-progress text-sky-500 -rotate-[230deg] text-3xl p-8" style="--value:80;--thickness:15px;" role="progressbar"><span class="rotate-[230deg] text-black">80%</span></div>
+                    <h4 class="text-xl font-semibold">Training Ground</h4>
+                    <p class="text-sm lg:text-base opacity-70 font-normal">Amet consectetur. Condimentum dignissim adipiscing. </p>
+                </div>
+            </div>
+        </section>
+        <section class="programs space-y-5 my-14">
+            <div class="programs-details text-center space-y-4 border-t-2 border-b-2 border-dashed py-5">
+                <h3 class="text-2xl lg:text-3xl font-extrabold">Program Sections</h3>
+                <p class="text-sm lg:text-base opacity-70 font-normal">Dit amet consectetur. Condimentum dignissim adipiscing aliquam <br> turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            </div>
+            <div class="program-container grid grid-cols-1 lg:grid-cols-2 lg:grid-rows-[330px_500px] gap-4">
+                <div class="program1 rounded-xl flex items-end">
+                    <div class="program-infos text-white py-6 px-4 space-y-3">
+                        <h4 class="text-xl font-semibold">Junior Program</h4>
+                        <p class="text-sm lg:text-base opacity-70 font-normal">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+                            enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+                        <a class="btn bg-[#FF4240] text-white px-4 py-2 border-transparent">Register Now!</a>
+                    </div>
+                </div>
+                <div class="program2 rounded-xl flex items-end">
+                  <div class="program-infos text-white py-6 px-4 space-y-3">
+                      <h4 class="text-xl font-semibold">Junior Program</h4>
+                      <p class="text-sm lg:text-base opacity-70 font-normal">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+                          enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+                      <a class="btn bg-[#FF4240] text-white px-4 py-2 border-transparent">Register Now!</a>
+                  </div>
+              </div>
+                <div class="program3 lg:col-span-2 bg-no-repeat bg-cover rounded-2xl flex items-end bg-center">
+                  <div class="program-infos text-white py-6 px-4 space-y-3">
+                    <h4 class="text-xl font-semibold">Junior Program</h4>
+                    <p class="text-sm lg:text-base opacity-70 font-normal">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit <br>
+                        enim sagittis turpis in magna. Id et sed euismod natoque amet nunc <br> morbi nulla. Tortor congue sed et in.</p>
+                    <a class="btn bg-[#FF4240] text-white px-4 py-2 border-transparent">Register Now!</a>
+                  </div>
+                </div>
+            </div>
+        </section>
+    </main>
     <footer></footer>
   </body>
 </html>

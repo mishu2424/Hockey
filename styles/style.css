@@ -1,0 +1,15 @@
+.font-manrope{
+    font-family: "Manrope", sans-serif;
+}
+.radial-progress:after {
+    transform: rotate(calc(var(--value)* 3.6deg - 90deg)) translate(calc(430%))!important
+}
+.program1{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2)),url('../Images/2.png'); 
+}
+.program2{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2)),url('../Images/3.png'); 
+}
+.program3{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2)),url('../Images/4.png'); 
+}
